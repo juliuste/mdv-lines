@@ -48,14 +48,14 @@ const transformLine = (l) => {
     return line
 }
 
-const fetch = async (id) => {
+const fetch = (id) => {
     console.error(Math.round(100*(id-fromID)/(toID-fromID))+'%')
-    const request = await got.get(`https://hn1.the-agent-factory.de/easygo2/rest/regions/MDV/lines/${id}`, {json: true})
+    return got.get(`https://hn1.the-agent-factory.de/easygo2/rest/regions/MDV/lines/${id}`, {json: true})
     .catch((err) => {
         if(err.statusCode === 404) return {body: null}
         else throw new Error(err)
     })
-    return request.body
+    .then(res => res.body)
 }
 
 const fetchAndSave = (id) =>
