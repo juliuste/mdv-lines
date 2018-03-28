@@ -1,7 +1,7 @@
 {
 	"name": "mdv-lines",
 	"description": "List of MDV (Mitteldeutscher Verkehrsverbund) lines.",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"keywords": [
 		"mdv",
 		"public",
