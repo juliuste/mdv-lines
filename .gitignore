@@ -8,5 +8,4 @@ dist
 
 yarn.lock
 shrinkwrap.yaml
-
-lines.json
+package-lock.json
