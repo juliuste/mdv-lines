@@ -24,7 +24,7 @@
 		"build.js"
 	],
 	"devDependencies": {
-		"got": "^9.0.0",
+		"got": "^9.5.1",
 		"lodash.isnumber": "^3.0.3",
 		"lodash.isstring": "^4.0.1",
 		"lodash.range": "^3.2.0",
