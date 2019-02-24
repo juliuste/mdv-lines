@@ -30,7 +30,7 @@
 		"lodash.range": "^3.2.0",
 		"p-retry": "^2.0.0",
 		"p-timeout": "^2.0.1",
-		"queue": "^4.4.2",
+		"queue": "^6.0.0",
 		"tape": "^4.9.0"
 	},
 	"scripts": {
