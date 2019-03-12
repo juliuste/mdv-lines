@@ -29,7 +29,7 @@
 		"lodash.isstring": "^4.0.1",
 		"lodash.range": "^3.2.0",
 		"p-retry": "^2.0.0",
-		"p-timeout": "^2.0.1",
+		"p-timeout": "^3.0.0",
 		"queue": "^4.4.2",
 		"tape": "^4.9.0"
 	},
